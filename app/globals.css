@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #F8F9FC;
+    --surface: #FFFFFF;
+    --foreground: #0F0E1A;
+    --muted: #6B7280;
+    --primary: #6C47FF;
+    --primary-hover: #5835e8;
+    --accent: #00D4AA;
+    --border: #E4E6EF;
+    --dark-background: #0F0E1A;
+    --dark-surface: #1E1E2E;
+    --dark-border: #2A2A3E;
+    --dark-muted: #9CA3AF;
+    --shadow-primary: 0 2px 12px 0 rgba(108, 71, 255, 0.08), 0 1px 3px 0 rgba(15, 14, 26, 0.06);
+    --radius: 12px;
+
+    /* Design system tokens */
+    --brand-primary: #6366F1;
+    --brand-secondary: #818CF8;
+    --brand-accent: #059669;
+    --brand-background: #F5F3FF;
+    --brand-foreground: #1E1B4B;
+    --brand-card: #FFFFFF;
+    --brand-muted: #EBEFF9;
+    --brand-muted-foreground: #64748B;
+    --brand-border: #E0E7FF;
+    --brand-ring: #6366F1;
+    --brand-destructive: #DC2626;
+  }
+
+  .dark {
+    --background: #0F0E1A;
+    --surface: #1E1E2E;
+    --foreground: #F8F9FC;
+    --muted: #9CA3AF;
+    --border: #2A2A3E;
+    --shadow-primary: 0 2px 12px 0 rgba(108, 71, 255, 0.15), 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Inter', 'Open Sans', sans-serif;
+    background-color: var(--background);
+    color: var(--foreground);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .font-sans {
+    font-family: 'Inter', 'Open Sans', sans-serif;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  .glass {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .dark .glass {
+    background: rgba(30, 30, 46, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .card-surface {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-primary);
+  }
+
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: var(--border);
+    border-radius: 2px;
+  }
+}

@@ -1,0 +1,2006 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "analytics": "Analytics",
+    "orders": "Orders",
+    "products": "Products",
+    "customers": "Customers",
+    "settings": "Settings",
+    "docs": "Documentation",
+    "api": "API Reference",
+    "changelog": "Changelog",
+    "status": "Status",
+    "about": "About",
+    "blog": "Blog",
+    "careers": "Careers",
+    "contact": "Contact"
+  },
+  "header-nav": [
+    {
+      "label": "DaticsAI",
+      "description": "Your real-time e-commerce intelligence hub. Monitor revenue, orders, and customer growth — all in one place.",
+      "cta": "Explore Analytics"
+    },
+    {
+      "label": "Analytics",
+      "href": "/analytics"
+    },
+    {
+      "label": "Orders",
+      "href": "/orders"
+    },
+    {
+      "label": "Products",
+      "href": "/products"
+    },
+    {
+      "label": "Customers",
+      "href": "/customers"
+    },
+    {
+      "label": "Settings",
+      "href": "/settings"
+    },
+    {
+      "label": "Live · Updated just now",
+      "type": "refresh-indicator"
+    },
+    {
+      "label": "Date Range",
+      "options": [
+        "Today",
+        "Last 7 Days",
+        "Last 30 Days",
+        "Last Quarter",
+        "Custom Range"
+      ]
+    },
+    {
+      "label": "Theme Toggle",
+      "type": "theme"
+    },
+    {
+      "label": "Alex Rivera",
+      "type": "user-menu",
+      "options": [
+        "Profile",
+        "Billing",
+        "Sign out"
+      ]
+    },
+    {
+      "label": "Breadcrumb",
+      "value": "Dashboard"
+    }
+  ],
+  "kpi-cards": [
+    {
+      "label": "Total Revenue",
+      "value": "$284,390",
+      "percentageChange": "+18.4%",
+      "isPositive": true,
+      "icon": "dollar-sign",
+      "description": "vs last period"
+    },
+    {
+      "label": "Total Orders",
+      "value": "6,847",
+      "percentageChange": "+11.2%",
+      "isPositive": true,
+      "icon": "shopping-bag",
+      "description": "vs last period"
+    },
+    {
+      "label": "Conversion Rate",
+      "value": "3.76%",
+      "percentageChange": "+0.42 pp",
+      "isPositive": true,
+      "icon": "funnel",
+      "description": "vs last period"
+    },
+    {
+      "label": "Average Order Value",
+      "value": "$41.53",
+      "percentageChange": "-2.1%",
+      "isPositive": false,
+      "icon": "receipt",
+      "description": "vs last period"
+    }
+  ],
+  "revenue-chart": [
+    {
+      "label": "Revenue Over Time",
+      "description": "Monthly revenue trend for the current period. Hover any data point to see exact daily or weekly revenue, gross margin, and order volume in the interactive tooltip."
+    },
+    {
+      "label": "This Period",
+      "color": "#6C47FF",
+      "style": "solid"
+    },
+    {
+      "label": "Prior Period",
+      "color": "#00D4AA",
+      "style": "dashed"
+    },
+    {
+      "label": "X-axis",
+      "values": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ]
+    },
+    {
+      "label": "Y-axis",
+      "range": "$0k – $40k",
+      "gridlines": "$10k intervals"
+    },
+    {
+      "label": "Tooltip",
+      "fields": [
+        "date",
+        "This Period revenue",
+        "Prior Period revenue",
+        "% delta"
+      ]
+    },
+    {
+      "label": "Legend",
+      "items": [
+        "This Period (violet)",
+        "Prior Period (teal)"
+      ]
+    },
+    {
+      "label": "CTA",
+      "value": "View full Analytics"
+    }
+  ],
+  "sales-by-category": [
+    {
+      "label": "Sales by Category",
+      "description": "Breakdown of gross sales across your top product categories this period."
+    },
+    {
+      "name": "Apparel & Fashion",
+      "value": 78420,
+      "share": "27.6%",
+      "mom": "+14.2%"
+    },
+    {
+      "name": "Electronics & Gadgets",
+      "value": 64310,
+      "share": "22.6%",
+      "mom": "+9.8%"
+    },
+    {
+      "name": "Home & Living",
+      "value": 51880,
+      "share": "18.2%",
+      "mom": "+6.3%"
+    },
+    {
+      "name": "Beauty & Wellness",
+      "value": 43750,
+      "share": "15.4%",
+      "mom": "+18.7%"
+    },
+    {
+      "name": "Sports & Outdoors",
+      "value": 28960,
+      "share": "10.2%",
+      "mom": "+3.1%"
+    },
+    {
+      "name": "Books & Media",
+      "value": 17070,
+      "share": "6.0%",
+      "mom": "-2.4%"
+    },
+    {
+      "label": "CTA",
+      "value": "Drill into Products"
+    },
+    {
+      "label": "Tooltip",
+      "fields": [
+        "category",
+        "revenue",
+        "share",
+        "MoM change"
+      ]
+    },
+    {
+      "label": "Chart type",
+      "value": "Vertical Bar Chart"
+    }
+  ],
+  "top-products": [
+    {
+      "label": "Top Performing Products",
+      "description": "Your five highest-revenue SKUs this period, ranked by gross sales."
+    },
+    {
+      "rank": 1,
+      "name": "AirFlex Pro Sneakers",
+      "sku": "AF-PRO-42",
+      "revenue": "$34,820",
+      "units": "1,204",
+      "rating": "4.8",
+      "trend": "up"
+    },
+    {
+      "rank": 2,
+      "name": "NovaSkin Serum Bundle",
+      "sku": "NS-SRM-B3",
+      "revenue": "$28,550",
+      "units": "971",
+      "rating": "4.7",
+      "trend": "up"
+    },
+    {
+      "rank": 3,
+      "name": "UltraSound BT Headphones",
+      "sku": "US-BT-X1",
+      "revenue": "$22,140",
+      "units": "618",
+      "rating": "4.6",
+      "trend": "stable"
+    },
+    {
+      "rank": 4,
+      "name": "LumaDesk Lamp Pro",
+      "sku": "LD-LMP-09",
+      "revenue": "$18,390",
+      "units": "892",
+      "rating": "4.5",
+      "trend": "up"
+    },
+    {
+      "rank": 5,
+      "name": "TrailBlazer Backpack 45L",
+      "sku": "TB-BPK-45",
+      "revenue": "$14,760",
+      "units": "504",
+      "rating": "4.9",
+      "trend": "up"
+    },
+    {
+      "label": "Columns",
+      "value": [
+        "Rank",
+        "Product Name",
+        "SKU",
+        "Revenue",
+        "Units Sold",
+        "Avg Rating",
+        "30-Day Trend"
+      ]
+    },
+    {
+      "label": "Footer",
+      "value": "View all 1,240 products →"
+    },
+    {
+      "label": "CTA",
+      "value": "View all Products"
+    }
+  ],
+  "customer-acquisition": [
+    {
+      "label": "Customer Acquisition",
+      "description": "New vs. returning customer split over the selected period."
+    },
+    {
+      "month": "Jan",
+      "new": 420,
+      "returning": 310
+    },
+    {
+      "month": "Feb",
+      "new": 390,
+      "returning": 340
+    },
+    {
+      "month": "Mar",
+      "new": 510,
+      "returning": 380
+    },
+    {
+      "month": "Apr",
+      "new": 480,
+      "returning": 420
+    },
+    {
+      "month": "May",
+      "new": 560,
+      "returning": 450
+    },
+    {
+      "month": "Jun",
+      "new": 620,
+      "returning": 490
+    },
+    {
+      "month": "Jul",
+      "new": 710,
+      "returning": 530
+    },
+    {
+      "month": "Aug",
+      "new": 680,
+      "returning": 570
+    },
+    {
+      "month": "Sep",
+      "new": 740,
+      "returning": 610
+    },
+    {
+      "month": "Oct",
+      "new": 800,
+      "returning": 650
+    },
+    {
+      "month": "Nov",
+      "new": 870,
+      "returning": 700
+    },
+    {
+      "month": "Dec",
+      "new": 940,
+      "returning": 760
+    },
+    {
+      "label": "KPI New",
+      "value": "Total New Customers: 7,720",
+      "change": "+23.1% YoY"
+    },
+    {
+      "label": "KPI Retention",
+      "value": "Retention Rate: 44.7%",
+      "change": "+3.2 pp YoY"
+    },
+    {
+      "label": "Series New",
+      "name": "New Customers",
+      "color": "#6C47FF"
+    },
+    {
+      "label": "Series Returning",
+      "name": "Returning Customers",
+      "color": "#00D4AA"
+    },
+    {
+      "label": "Footer",
+      "value": "Explore customer segments →"
+    },
+    {
+      "label": "CTA",
+      "value": "Explore Customers"
+    }
+  ],
+  "date-range-picker": [
+    {
+      "label": "Today",
+      "description": "Shows data for the current calendar day, auto-refreshes every 60 s"
+    },
+    {
+      "label": "Last 7 Days",
+      "description": "Rolling 7-day window ending at midnight last night"
+    },
+    {
+      "label": "Last 30 Days",
+      "description": "Default selection on page load, covers the past calendar month",
+      "default": true
+    },
+    {
+      "label": "Last 90 Days",
+      "description": "Ideal for spotting seasonal trends across a full quarter"
+    },
+    {
+      "label": "Year to Date",
+      "description": "1 Jan of the current year through today"
+    },
+    {
+      "label": "Custom Range",
+      "description": "Calendar date-picker with start and end date inputs, Apply button"
+    }
+  ],
+  "orders-funnel": [
+    {
+      "label": "Order Conversion Funnel",
+      "description": "Track how shoppers move from first page view to completed purchase."
+    },
+    {
+      "stage": "Store Visits",
+      "count": 84320,
+      "rate": "100%",
+      "description": "Entry point for all funnel traffic"
+    },
+    {
+      "stage": "Product Page Views",
+      "count": 61540,
+      "rate": "73.0%",
+      "description": "of visits reached a product page"
+    },
+    {
+      "stage": "Add to Cart",
+      "count": 28910,
+      "rate": "47.0%",
+      "description": "of product viewers added at least one item"
+    },
+    {
+      "stage": "Checkout Initiated",
+      "count": 14230,
+      "rate": "49.2%",
+      "description": "of cart starters began checkout"
+    },
+    {
+      "stage": "Payment Entered",
+      "count": 9870,
+      "rate": "69.4%",
+      "description": "of checkout starters reached payment"
+    },
+    {
+      "stage": "Order Completed",
+      "count": 7614,
+      "rate": "9.03%",
+      "description": "overall conversion rate"
+    }
+  ],
+  "geographic-heatmap": [
+    {
+      "label": "Sales by Region",
+      "description": "Visualize where your revenue is coming from across the globe."
+    },
+    {
+      "country": "United States",
+      "revenue": "$412,880",
+      "orders": 3204,
+      "conversion": "9.8%",
+      "topCity": "New York"
+    },
+    {
+      "country": "United Kingdom",
+      "revenue": "$98,340",
+      "orders": 841,
+      "conversion": "8.4%",
+      "topCity": "London"
+    },
+    {
+      "country": "Germany",
+      "revenue": "$74,120",
+      "orders": 612,
+      "conversion": "7.9%",
+      "topCity": "Berlin"
+    },
+    {
+      "country": "Canada",
+      "revenue": "$61,500",
+      "orders": 530,
+      "conversion": "8.1%",
+      "topCity": "Toronto"
+    },
+    {
+      "country": "Australia",
+      "revenue": "$53,270",
+      "orders": 448,
+      "conversion": "7.6%",
+      "topCity": "Sydney"
+    },
+    {
+      "country": "France",
+      "revenue": "$47,890",
+      "orders": 391,
+      "conversion": "7.2%",
+      "topCity": "Paris"
+    },
+    {
+      "country": "Japan",
+      "revenue": "$39,640",
+      "orders": 318,
+      "conversion": "6.8%",
+      "topCity": "Tokyo"
+    },
+    {
+      "country": "Brazil",
+      "revenue": "$28,110",
+      "orders": 247,
+      "conversion": "5.9%",
+      "topCity": "São Paulo"
+    }
+  ],
+  "conversion-metrics": [
+    {
+      "label": "Conversion Rate Metrics",
+      "description": "Track how efficiently traffic turns into revenue across channels, devices, and time."
+    },
+    {
+      "name": "Overall Conversion Rate",
+      "value": "9.03%",
+      "change": "+1.24 pp",
+      "isPositive": true,
+      "description": "vs last 30 days"
+    },
+    {
+      "name": "Mobile Conversion Rate",
+      "value": "6.71%",
+      "change": "-0.38 pp",
+      "isPositive": false,
+      "description": "opportunity to optimize mobile checkout"
+    },
+    {
+      "name": "Desktop Conversion Rate",
+      "value": "12.44%",
+      "change": "+2.01 pp",
+      "isPositive": true,
+      "description": "highest-converting surface"
+    },
+    {
+      "name": "Tablet Conversion Rate",
+      "value": "8.19%",
+      "change": "+0.55 pp",
+      "isPositive": true,
+      "description": "vs last 30 days"
+    },
+    {
+      "name": "Organic Search CVR",
+      "value": "11.2%",
+      "change": "+1.8 pp",
+      "isPositive": true,
+      "description": "highest-intent traffic channel"
+    },
+    {
+      "name": "Paid Social CVR",
+      "value": "5.6%",
+      "change": "-0.9 pp",
+      "isPositive": false,
+      "description": "review ad creative and landing page alignment"
+    },
+    {
+      "name": "Email Campaign CVR",
+      "value": "14.3%",
+      "change": "+3.1 pp",
+      "isPositive": true,
+      "description": "best-performing acquisition channel this period"
+    },
+    {
+      "name": "Direct / Branded CVR",
+      "value": "16.8%",
+      "change": "+0.7 pp",
+      "isPositive": true,
+      "description": "returning customers driving strong close rate"
+    }
+  ],
+  "advanced-filters": [
+    {
+      "label": "Advanced Filters",
+      "description": "Slice every chart and table on this page by any combination of dimensions."
+    },
+    {
+      "filter": "Channel",
+      "type": "multi-select",
+      "options": [
+        "Organic Search",
+        "Paid Search",
+        "Paid Social",
+        "Email",
+        "Direct",
+        "Referral",
+        "Affiliate"
+      ]
+    },
+    {
+      "filter": "Device Type",
+      "type": "segmented",
+      "options": [
+        "All",
+        "Desktop",
+        "Mobile",
+        "Tablet"
+      ]
+    },
+    {
+      "filter": "Product Category",
+      "type": "multi-select",
+      "options": [
+        "Apparel",
+        "Electronics",
+        "Home & Garden",
+        "Beauty",
+        "Sports",
+        "Books",
+        "Accessories"
+      ]
+    },
+    {
+      "filter": "Order Status",
+      "type": "multi-select",
+      "options": [
+        "Completed",
+        "Pending",
+        "Refunded",
+        "Cancelled"
+      ]
+    },
+    {
+      "filter": "Customer Segment",
+      "type": "dropdown",
+      "options": [
+        "All Customers",
+        "New",
+        "Returning",
+        "VIP (LTV > $500)"
+      ]
+    },
+    {
+      "filter": "Revenue Range",
+      "type": "range-slider",
+      "min": 0,
+      "max": 10000
+    },
+    {
+      "filter": "Country / Region",
+      "type": "searchable-multi-select",
+      "maxSelections": 10
+    },
+    {
+      "filter": "Save Filter View",
+      "type": "save",
+      "description": "Name and save current filter combination"
+    },
+    {
+      "filter": "Reset All Filters",
+      "type": "reset"
+    },
+    {
+      "filter": "Apply Filters",
+      "type": "submit",
+      "cta": "Apply Filters"
+    }
+  ],
+  "filters-toolbar": [
+    {
+      "label": "Filter & Search Orders",
+      "description": "Narrow down your order list using status badges, payment method, fulfillment channel, or a free-text search."
+    },
+    {
+      "type": "search",
+      "placeholder": "Search by order ID or customer name…"
+    },
+    {
+      "type": "status",
+      "label": "Status",
+      "options": [
+        "All Statuses",
+        "Pending",
+        "Processing",
+        "Shipped",
+        "Delivered",
+        "Cancelled",
+        "Refunded"
+      ]
+    },
+    {
+      "type": "payment",
+      "label": "Payment Method",
+      "options": [
+        "All Methods",
+        "Credit Card",
+        "PayPal",
+        "Apple Pay",
+        "Google Pay",
+        "Bank Transfer"
+      ]
+    },
+    {
+      "type": "channel",
+      "label": "Fulfillment Channel",
+      "options": [
+        "All Channels",
+        "Online Store",
+        "Mobile App",
+        "Marketplace",
+        "In-Store POS"
+      ]
+    },
+    {
+      "type": "date",
+      "label": "Date Range",
+      "options": [
+        "Today",
+        "Last 7 Days",
+        "Last 30 Days",
+        "Custom"
+      ]
+    },
+    {
+      "type": "chips",
+      "label": "Active Filters",
+      "example": "Status: Shipped, Channel: Online Store"
+    },
+    {
+      "type": "reset",
+      "label": "Clear Filters"
+    },
+    {
+      "type": "results",
+      "label": "1,284 orders match your filters"
+    },
+    {
+      "type": "sort",
+      "label": "Sort by",
+      "options": [
+        "Order Date (newest first)",
+        "Order Date (oldest first)",
+        "Amount (high–low)",
+        "Amount (low–high)",
+        "Status"
+      ]
+    }
+  ],
+  "orders-table": [
+    {
+      "label": "All Orders",
+      "description": "A paginated, sortable table of every order."
+    },
+    {
+      "id": "#ORD-10482",
+      "customer": "Priya Nair",
+      "email": "p.nair@email.com",
+      "date": "Jun 12, 2025",
+      "items": 3,
+      "amount": "$248.00",
+      "payment": "Visa •••• 4291",
+      "channel": "Online Store",
+      "status": "Shipped"
+    },
+    {
+      "id": "#ORD-10481",
+      "customer": "Marcus Webb",
+      "email": "m.webb@email.com",
+      "date": "Jun 12, 2025",
+      "items": 1,
+      "amount": "$89.99",
+      "payment": "PayPal",
+      "channel": "Mobile App",
+      "status": "Delivered"
+    },
+    {
+      "id": "#ORD-10480",
+      "customer": "Sofia Delgado",
+      "email": "s.delgado@email.com",
+      "date": "Jun 12, 2025",
+      "items": 5,
+      "amount": "$512.50",
+      "payment": "Apple Pay",
+      "channel": "Online Store",
+      "status": "Processing"
+    },
+    {
+      "id": "#ORD-10479",
+      "customer": "Liam Okafor",
+      "email": "l.okafor@email.com",
+      "date": "Jun 11, 2025",
+      "items": 2,
+      "amount": "$134.00",
+      "payment": "Visa •••• 8823",
+      "channel": "Marketplace",
+      "status": "Pending"
+    },
+    {
+      "id": "#ORD-10478",
+      "customer": "Yuki Tanaka",
+      "email": "y.tanaka@email.com",
+      "date": "Jun 11, 2025",
+      "items": 4,
+      "amount": "$376.20",
+      "payment": "Google Pay",
+      "channel": "Online Store",
+      "status": "Delivered"
+    },
+    {
+      "id": "#ORD-10477",
+      "customer": "Amara Diallo",
+      "email": "a.diallo@email.com",
+      "date": "Jun 11, 2025",
+      "items": 1,
+      "amount": "$59.00",
+      "payment": "Bank Transfer",
+      "channel": "In-Store POS",
+      "status": "Cancelled"
+    },
+    {
+      "id": "#ORD-10476",
+      "customer": "Ethan Rossi",
+      "email": "e.rossi@email.com",
+      "date": "Jun 10, 2025",
+      "items": 2,
+      "amount": "$199.00",
+      "payment": "Visa •••• 3310",
+      "channel": "Online Store",
+      "status": "Refunded"
+    },
+    {
+      "id": "#ORD-10475",
+      "customer": "Chloe Park",
+      "email": "c.park@email.com",
+      "date": "Jun 10, 2025",
+      "items": 6,
+      "amount": "$644.75",
+      "payment": "PayPal",
+      "channel": "Mobile App",
+      "status": "Shipped"
+    },
+    {
+      "label": "Bulk Actions",
+      "options": [
+        "Mark as Shipped",
+        "Export Selected",
+        "Cancel Orders"
+      ]
+    },
+    {
+      "label": "Pagination",
+      "value": "Page 1 of 43",
+      "rowsPerPage": [
+        25,
+        50,
+        100
+      ]
+    },
+    {
+      "label": "Columns",
+      "value": [
+        "Order ID",
+        "Customer",
+        "Date",
+        "Items",
+        "Amount",
+        "Payment",
+        "Channel",
+        "Status",
+        "Actions"
+      ]
+    },
+    {
+      "label": "CTA",
+      "value": "View Details"
+    },
+    {
+      "label": "Export",
+      "value": "Export CSV"
+    },
+    {
+      "label": "Bulk bar",
+      "value": "X orders selected · Mark as Shipped · Export Selected · Cancel Orders"
+    },
+    {
+      "label": "Sort options",
+      "value": [
+        "Order Date (newest first)",
+        "Amount (high–low)",
+        "Status"
+      ]
+    },
+    {
+      "label": "Results count",
+      "value": "1,284 orders match your filters"
+    },
+    {
+      "label": "Row action menu",
+      "options": [
+        "View Details",
+        "Mark as Shipped",
+        "Print Invoice",
+        "Cancel Order"
+      ]
+    },
+    {
+      "label": "Rows per page",
+      "options": [
+        25,
+        50,
+        100
+      ]
+    },
+    {
+      "label": "Pagination controls",
+      "value": "← Previous · Page 1 of 43 · Next →"
+    }
+  ],
+  "order-details-modal": [
+    {
+      "label": "Order Details",
+      "orderId": "#ORD-10482",
+      "status": "Shipped"
+    },
+    {
+      "label": "Customer",
+      "initials": "PN",
+      "name": "Priya Nair",
+      "email": "j.kim@email.com",
+      "phone": "+1 (415) 555-0192",
+      "since": "Mar 2024",
+      "ltv": "$1,840"
+    },
+    {
+      "label": "Order Summary",
+      "placed": "Jun 12, 2025 at 14:37 UTC",
+      "channel": "Online Store",
+      "payment": "Visa •••• 4291"
+    },
+    {
+      "label": "Line Item 1",
+      "name": "Wireless Noise-Cancelling Headphones",
+      "qty": 1,
+      "price": "$189.00"
+    },
+    {
+      "label": "Line Item 2",
+      "name": "USB-C Charging Cable (2-pack)",
+      "qty": 1,
+      "price": "$24.00"
+    },
+    {
+      "label": "Line Item 3",
+      "name": "Silicone Protective Case",
+      "qty": 1,
+      "price": "$19.00"
+    },
+    {
+      "label": "Pricing",
+      "subtotal": "$232.00",
+      "shipping": "$8.00",
+      "tax": "$15.58",
+      "discount": "-$7.58",
+      "discountCode": "SAVE10",
+      "total": "$248.00"
+    },
+    {
+      "label": "Shipping Address",
+      "value": "47 Maple Grove Ave, Apt 3B, San Francisco, CA 94107, United States"
+    },
+    {
+      "label": "Fulfillment Timeline",
+      "steps": [
+        {
+          "step": "Order Placed",
+          "done": true,
+          "time": "Jun 12 14:37"
+        },
+        {
+          "step": "Payment Confirmed",
+          "done": true,
+          "time": "Jun 12 14:38"
+        },
+        {
+          "step": "Picked & Packed",
+          "done": true,
+          "time": "Jun 12 18:05"
+        },
+        {
+          "step": "Shipped",
+          "done": true,
+          "time": "Jun 13 09:22",
+          "tracking": "FedEx 7489 2031 4820"
+        },
+        {
+          "step": "Out for Delivery",
+          "done": false,
+          "time": "Jun 14 (estimated)"
+        },
+        {
+          "step": "Delivered",
+          "done": false,
+          "time": "Pending"
+        }
+      ]
+    },
+    {
+      "label": "Tracking",
+      "carrier": "FedEx",
+      "number": "7489 2031 4820"
+    },
+    {
+      "label": "Internal Notes",
+      "placeholder": "Add a note visible only to your team…"
+    },
+    {
+      "label": "Actions",
+      "primary": "Mark as Delivered",
+      "secondary": "Print Invoice",
+      "destructive": "Issue Refund",
+      "ghost": "Cancel Order"
+    }
+  ],
+  "search-filters": [
+    {
+      "label": "Find & Filter Products",
+      "description": "Narrow your catalog by category, stock status, price range, or performance tier."
+    },
+    {
+      "type": "search",
+      "placeholder": "Search by product name or SKU…"
+    },
+    {
+      "type": "category",
+      "label": "Category",
+      "options": [
+        "All Categories",
+        "Apparel",
+        "Electronics",
+        "Home & Garden",
+        "Beauty",
+        "Sports",
+        "Accessories"
+      ]
+    },
+    {
+      "type": "stock",
+      "label": "Stock Status",
+      "options": [
+        "All",
+        "In Stock",
+        "Low Stock (≤ 20 units)",
+        "Out of Stock"
+      ]
+    },
+    {
+      "type": "performance",
+      "label": "Performance Tier",
+      "options": [
+        "All",
+        "Top Performers (top 20% revenue)",
+        "Rising (MoM growth > 15%)",
+        "Declining (MoM growth < −10%)"
+      ]
+    },
+    {
+      "type": "price",
+      "label": "Price Range",
+      "min": 0,
+      "max": 1000
+    },
+    {
+      "type": "sort",
+      "label": "Sort by",
+      "options": [
+        "Revenue (High → Low)",
+        "Units Sold",
+        "Conversion Rate",
+        "Avg. Rating",
+        "Newest"
+      ]
+    },
+    {
+      "type": "reset",
+      "label": "Reset Filters"
+    },
+    {
+      "type": "chips",
+      "label": "Active Filters",
+      "example": "Category: Electronics ✕, Stock: Low Stock ✕"
+    }
+  ],
+  "products-table": [
+    {
+      "label": "Product Catalog",
+      "description": "All 248 products across your store, ranked by total revenue for the selected period."
+    },
+    {
+      "name": "AeroFit Pro Running Shoes",
+      "sku": "SKU-00421",
+      "category": "Sports",
+      "units": "3,842",
+      "revenue": "$192,100",
+      "change": "+18.4%",
+      "isPositive": true,
+      "aov": "$49.99",
+      "cvr": "4.7%",
+      "stock": "1,204 units",
+      "stockStatus": "In Stock",
+      "rating": "4.8",
+      "reviews": "1,203"
+    },
+    {
+      "name": "LumiGlow Skincare Set",
+      "sku": "SKU-00187",
+      "category": "Beauty",
+      "units": "2,991",
+      "revenue": "$149,550",
+      "change": "+22.1%",
+      "isPositive": true,
+      "aov": "$49.99",
+      "cvr": "5.2%",
+      "stock": "380 units",
+      "stockStatus": "Low Stock",
+      "rating": "4.6",
+      "reviews": "892"
+    },
+    {
+      "name": "UrbanEdge Wireless Earbuds",
+      "sku": "SKU-00309",
+      "category": "Electronics",
+      "units": "2,540",
+      "revenue": "$127,000",
+      "change": "+9.3%",
+      "isPositive": true,
+      "aov": "$50.00",
+      "cvr": "3.8%",
+      "stock": "2,100 units",
+      "stockStatus": "In Stock",
+      "rating": "4.5",
+      "reviews": "741"
+    },
+    {
+      "name": "CloudComfort Pillow Set",
+      "sku": "SKU-00512",
+      "category": "Home & Garden",
+      "units": "1,876",
+      "revenue": "$93,800",
+      "change": "-4.2%",
+      "isPositive": false,
+      "aov": "$50.00",
+      "cvr": "2.9%",
+      "stock": "54 units",
+      "stockStatus": "Low Stock",
+      "rating": "4.3",
+      "reviews": "512"
+    },
+    {
+      "name": "PeakPulse Smart Watch",
+      "sku": "SKU-00634",
+      "category": "Electronics",
+      "units": "1,654",
+      "revenue": "$248,100",
+      "change": "+31.7%",
+      "isPositive": true,
+      "aov": "$150.00",
+      "cvr": "6.1%",
+      "stock": "812 units",
+      "stockStatus": "In Stock",
+      "rating": "4.9",
+      "reviews": "1,087"
+    },
+    {
+      "name": "VelvetTouch Yoga Mat",
+      "sku": "SKU-00278",
+      "category": "Sports",
+      "units": "1,430",
+      "revenue": "$42,900",
+      "change": "+5.8%",
+      "isPositive": true,
+      "aov": "$30.00",
+      "cvr": "3.3%",
+      "stock": "0 units",
+      "stockStatus": "Out of Stock",
+      "rating": "4.7",
+      "reviews": "634"
+    },
+    {
+      "name": "NovaSkin Vitamin C Serum",
+      "sku": "SKU-00091",
+      "category": "Beauty",
+      "units": "1,218",
+      "revenue": "$48,720",
+      "change": "+14.6%",
+      "isPositive": true,
+      "aov": "$40.00",
+      "cvr": "4.1%",
+      "stock": "670 units",
+      "stockStatus": "In Stock",
+      "rating": "4.4",
+      "reviews": "389"
+    },
+    {
+      "name": "BreezeCool Portable Fan",
+      "sku": "SKU-00445",
+      "category": "Home & Garden",
+      "units": "987",
+      "revenue": "$29,610",
+      "change": "-11.3%",
+      "isPositive": false,
+      "aov": "$30.00",
+      "cvr": "2.1%",
+      "stock": "1,560 units",
+      "stockStatus": "In Stock",
+      "rating": "3.9",
+      "reviews": "241"
+    },
+    {
+      "label": "Pagination",
+      "value": "Showing 1–8 of 248 products",
+      "page": "1 of 31"
+    },
+    {
+      "label": "Bulk Actions",
+      "options": [
+        "Export Selected",
+        "Archive",
+        "Apply Discount"
+      ]
+    },
+    {
+      "label": "Columns",
+      "value": [
+        "Product",
+        "Category",
+        "Units Sold",
+        "Revenue",
+        "Avg. Order Value",
+        "Conversion Rate",
+        "Stock",
+        "Avg. Rating"
+      ]
+    },
+    {
+      "label": "CTA",
+      "value": "View Product Details"
+    },
+    {
+      "label": "Results",
+      "value": "248 products total"
+    },
+    {
+      "label": "Sort",
+      "default": "Revenue (High → Low)"
+    },
+    {
+      "label": "Row actions",
+      "options": [
+        "View Details",
+        "Edit Product",
+        "Archive",
+        "View Analytics"
+      ]
+    },
+    {
+      "label": "Rows per page",
+      "options": [
+        25,
+        50,
+        100
+      ]
+    },
+    {
+      "label": "Pagination controls",
+      "value": "← Prev · Page 1 of 31 · Next →"
+    }
+  ],
+  "product-performance-chart": [
+    {
+      "label": "Product Performance Overview",
+      "description": "Compare revenue contribution, units sold, and conversion rate across your top 10 products side by side."
+    },
+    {
+      "product": "AeroFit Pro",
+      "revenue": 192000,
+      "units": 3842,
+      "cvr": 4.7
+    },
+    {
+      "product": "LumiGlow",
+      "revenue": 150000,
+      "units": 2991,
+      "cvr": 5.2
+    },
+    {
+      "product": "UrbanEdge Earbuds",
+      "revenue": 127000,
+      "units": 2540,
+      "cvr": 3.8
+    },
+    {
+      "product": "PeakPulse Watch",
+      "revenue": 248000,
+      "units": 1654,
+      "cvr": 6.1
+    },
+    {
+      "product": "CloudComfort Pillow",
+      "revenue": 94000,
+      "units": 1876,
+      "cvr": 2.9
+    },
+    {
+      "product": "VelvetTouch Mat",
+      "revenue": 43000,
+      "units": 1430,
+      "cvr": 3.3
+    },
+    {
+      "product": "NovaSkin Serum",
+      "revenue": 49000,
+      "units": 1218,
+      "cvr": 4.1
+    },
+    {
+      "product": "BreezeCool Fan",
+      "revenue": 30000,
+      "units": 987,
+      "cvr": 2.1
+    },
+    {
+      "label": "Insight",
+      "value": "PeakPulse Smart Watch leads revenue at $248K with the highest conversion rate of 6.1% — up 31.7% this period."
+    },
+    {
+      "label": "Donut",
+      "segments": [
+        {
+          "name": "Electronics",
+          "value": 42
+        },
+        {
+          "name": "Sports",
+          "value": 21
+        },
+        {
+          "name": "Beauty",
+          "value": 18
+        },
+        {
+          "name": "Home & Garden",
+          "value": 12
+        },
+        {
+          "name": "Accessories",
+          "value": 7
+        }
+      ]
+    }
+  ],
+  "customers-table": [
+    {
+      "label": "All Customers",
+      "description": "1,284 customers match your current filters."
+    },
+    {
+      "name": "Sarah Mitchell",
+      "email": "sarah.m@email.com",
+      "id": "#CUS-00412",
+      "segment": "VIP",
+      "channel": "Organic Search",
+      "signup": "Jan 8, 2023",
+      "orders": 18,
+      "ltv": "$4,210.00",
+      "aov": "$233.89",
+      "lastOrder": "2 days ago",
+      "status": "Active"
+    },
+    {
+      "name": "James Okonkwo",
+      "email": "j.okonkwo@mail.com",
+      "id": "#CUS-00389",
+      "segment": "Repeat Buyer",
+      "channel": "Paid Social",
+      "signup": "Mar 22, 2023",
+      "orders": 7,
+      "ltv": "$1,085.50",
+      "aov": "$155.07",
+      "lastOrder": "11 days ago",
+      "status": "Active"
+    },
+    {
+      "name": "Priya Sharma",
+      "email": "priya.s@inbox.io",
+      "id": "#CUS-00501",
+      "segment": "New",
+      "channel": "Email Campaign",
+      "signup": "Nov 2, 2024",
+      "orders": 1,
+      "ltv": "$89.00",
+      "aov": "$89.00",
+      "lastOrder": "5 days ago",
+      "status": "Active"
+    },
+    {
+      "name": "Carlos Mendes",
+      "email": "c.mendes@store.net",
+      "id": "#CUS-00278",
+      "segment": "At-Risk",
+      "channel": "Referral",
+      "signup": "Jul 14, 2022",
+      "orders": 4,
+      "ltv": "$620.00",
+      "aov": "$155.00",
+      "lastOrder": "97 days ago",
+      "status": "Inactive"
+    },
+    {
+      "name": "Yuki Tanaka",
+      "email": "yuki.t@webmail.jp",
+      "id": "#CUS-00334",
+      "segment": "VIP",
+      "channel": "Direct",
+      "signup": "Sep 3, 2022",
+      "orders": 22,
+      "ltv": "$5,870.00",
+      "aov": "$266.82",
+      "lastOrder": "1 day ago",
+      "status": "Active"
+    },
+    {
+      "name": "Emma Larsson",
+      "email": "emma.l@nordic.se",
+      "id": "#CUS-00467",
+      "segment": "Repeat Buyer",
+      "channel": "Organic Search",
+      "signup": "May 19, 2023",
+      "orders": 5,
+      "ltv": "$740.00",
+      "aov": "$148.00",
+      "lastOrder": "28 days ago",
+      "status": "Active"
+    },
+    {
+      "name": "David Park",
+      "email": "d.park@techco.kr",
+      "id": "#CUS-00512",
+      "segment": "New",
+      "channel": "Paid Social",
+      "signup": "Oct 30, 2024",
+      "orders": 1,
+      "ltv": "$210.00",
+      "aov": "$210.00",
+      "lastOrder": "8 days ago",
+      "status": "Active"
+    },
+    {
+      "name": "Amara Diallo",
+      "email": "amara.d@gmail.com",
+      "id": "#CUS-00199",
+      "segment": "Churned",
+      "channel": "Email Campaign",
+      "signup": "Feb 11, 2022",
+      "orders": 3,
+      "ltv": "$310.00",
+      "aov": "$103.33",
+      "lastOrder": "184 days ago",
+      "status": "Churned"
+    },
+    {
+      "label": "Pagination",
+      "value": "Showing 1–25 of 1,284 customers"
+    },
+    {
+      "label": "Bulk Actions",
+      "options": [
+        "Send Email",
+        "Add Tag",
+        "Export Selected"
+      ]
+    },
+    {
+      "label": "Columns",
+      "value": [
+        "Customer",
+        "Customer ID",
+        "Segment",
+        "Acquisition Channel",
+        "Signup Date",
+        "Total Orders",
+        "Lifetime Value",
+        "Avg. Order Value",
+        "Last Order",
+        "Status"
+      ]
+    },
+    {
+      "label": "CTA",
+      "value": "View Customer Profile"
+    },
+    {
+      "label": "Results",
+      "value": "1,284 customers match your current filters"
+    },
+    {
+      "label": "Rows per page",
+      "options": [
+        25,
+        50,
+        100
+      ]
+    },
+    {
+      "label": "Pagination controls",
+      "value": "← Previous · Page 1 of 52 · Next →"
+    },
+    {
+      "label": "Row selection",
+      "value": "Checkbox per row, bulk actions toolbar appears on selection"
+    },
+    {
+      "label": "Sort",
+      "default": "Lifetime Value (High → Low)"
+    },
+    {
+      "label": "Export",
+      "value": "Export CSV"
+    },
+    {
+      "label": "Search placeholder",
+      "value": "Search by name, email, or customer ID…"
+    }
+  ],
+  "customer-insights-chart": [
+    {
+      "label": "Customer Insights",
+      "description": "Visualize acquisition momentum, segment distribution, and lifetime value trends."
+    },
+    {
+      "chart": "New Customers Acquired",
+      "type": "area",
+      "stats": {
+        "totalNew": "1,847",
+        "yoyChange": "+22.4%",
+        "retentionRate": "38.6%",
+        "bestMonth": "August 2024"
+      }
+    },
+    {
+      "chart": "Customer Segment Distribution",
+      "type": "donut",
+      "segments": [
+        {
+          "name": "VIP",
+          "value": 12,
+          "color": "#6C47FF"
+        },
+        {
+          "name": "Repeat Buyers",
+          "value": 31,
+          "color": "#00D4AA"
+        },
+        {
+          "name": "New",
+          "value": 24,
+          "color": "#818CF8"
+        },
+        {
+          "name": "At-Risk",
+          "value": 18,
+          "color": "#F59E0B"
+        },
+        {
+          "name": "Churned",
+          "value": 15,
+          "color": "#EF4444"
+        }
+      ],
+      "centerLabel": "1,284 Total",
+      "stats": {
+        "vipRevenue": "47%",
+        "atRiskGrowth": "4.2%"
+      }
+    },
+    {
+      "chart": "Lifetime Value Distribution",
+      "type": "horizontal-bar",
+      "buckets": [
+        {
+          "range": "$0–$99",
+          "count": 312
+        },
+        {
+          "range": "$100–$299",
+          "count": 428
+        },
+        {
+          "range": "$300–$599",
+          "count": 287
+        },
+        {
+          "range": "$600–$999",
+          "count": 164
+        },
+        {
+          "range": "$1,000+",
+          "count": 93
+        }
+      ],
+      "stats": {
+        "topTierRevenue": "34%",
+        "medianLTV": "$284"
+      }
+    },
+    {
+      "chart": "Acquisition Channel Performance",
+      "type": "grouped-bar",
+      "channels": [
+        {
+          "name": "Organic Search",
+          "customers": 312,
+          "avgLTV": 412
+        },
+        {
+          "name": "Paid Social",
+          "customers": 534,
+          "avgLTV": 198
+        },
+        {
+          "name": "Email Campaign",
+          "customers": 287,
+          "avgLTV": 341
+        },
+        {
+          "name": "Referral",
+          "customers": 164,
+          "avgLTV": 289
+        },
+        {
+          "name": "Direct",
+          "customers": 93,
+          "avgLTV": 378
+        }
+      ],
+      "stats": {
+        "highestLTV": "Organic Search ($412 avg)",
+        "highestVolume": "Paid Social (534 acquired)"
+      }
+    },
+    {
+      "label": "Insight",
+      "value": "18% of your customers are At-Risk — they haven't ordered in 90+ days. Launch a win-back campaign to recover an estimated $48,200 in revenue."
+    },
+    {
+      "label": "Insight CTA",
+      "value": "Create Win-Back Campaign →"
+    },
+    {
+      "label": "CTA",
+      "value": "View Full Analytics Report"
+    },
+    {
+      "label": "Peak callout",
+      "value": "Aug 2024 — 214 new customers"
+    },
+    {
+      "label": "Monthly data",
+      "months": [
+        {
+          "month": "Jan",
+          "new": 98,
+          "returning": 62
+        },
+        {
+          "month": "Feb",
+          "new": 112,
+          "returning": 71
+        },
+        {
+          "month": "Mar",
+          "new": 134,
+          "returning": 84
+        },
+        {
+          "month": "Apr",
+          "new": 128,
+          "returning": 91
+        },
+        {
+          "month": "May",
+          "new": 156,
+          "returning": 103
+        },
+        {
+          "month": "Jun",
+          "new": 171,
+          "returning": 118
+        },
+        {
+          "month": "Jul",
+          "new": 189,
+          "returning": 127
+        },
+        {
+          "month": "Aug",
+          "new": 214,
+          "returning": 142
+        },
+        {
+          "month": "Sep",
+          "new": 198,
+          "returning": 138
+        },
+        {
+          "month": "Oct",
+          "new": 187,
+          "returning": 149
+        },
+        {
+          "month": "Nov",
+          "new": 176,
+          "returning": 156
+        },
+        {
+          "month": "Dec",
+          "new": 184,
+          "returning": 163
+        }
+      ]
+    }
+  ],
+  "analytics": {
+    "channel": {
+      "subtitle": "Track performance across your sales channels",
+      "title": "Channel Performance"
+    },
+    "conversion": {
+      "subtitle": "Monitor conversion rates and trends",
+      "title": "Conversion Rate"
+    },
+    "filters": "Filters",
+    "funnel": {
+      "subtitle": "Visualize your customer journey from click to purchase",
+      "title": "Sales Funnel"
+    },
+    "insight": {
+      "bestConversion": "Best Converting Channel",
+      "cartDropOff": "Cart Drop-off Rate",
+      "topChannel": "Top Performing Channel"
+    },
+    "subtitle": "Dive deep into your sales metrics and customer behavior",
+    "title": "Analytics"
+  },
+  "analyticsPreview": {
+    "chart": {
+      "ordersLabel": "Orders",
+      "period": "Last 30 days",
+      "revenueLabel": "Revenue"
+    },
+    "eyebrow": "Performance Overview",
+    "heading": "Your Sales at a Glance",
+    "pie": {
+      "label": "Sales by Channel"
+    },
+    "subheading": "Real-time insights into orders and revenue",
+    "tab": {
+      "orders": "Orders",
+      "revenue": "Revenue"
+    }
+  },
+  "cta": {
+    "button": {
+      "primary": "Get Started",
+      "secondary": "Learn More"
+    },
+    "disclaimer": "No credit card required. Start free today.",
+    "heading": "Ready to grow your e-commerce business?",
+    "subheading": "Join thousands of sellers using DaticsAI to boost sales and optimize their operations."
+  },
+  "customers": {
+    "chartRange": "Date Range",
+    "chartSubtitle": "Analyze customer acquisition and lifetime value",
+    "chartTitle": "Customer Growth",
+    "colAcquired": "Acquired",
+    "colCustomer": "Customer",
+    "colEmail": "Email",
+    "colLTV": "Lifetime Value",
+    "colOrders": "Orders",
+    "colSegment": "Segment",
+    "emptyState": "No customers found. Adjust your filters and try again.",
+    "exportBtn": "Export",
+    "eyebrow": "Customer Management",
+    "heading": "Customers",
+    "searchPlaceholder": "Search by name or email",
+    "subheading": "View and manage your customer base",
+    "tableCount": "Showing {count} of {total} customers",
+    "tableFooter": "Page {current} of {total}"
+  },
+  "dashboardOverview": {
+    "categoryChart": {
+      "subtitle": "Revenue distribution across product categories",
+      "title": "Top Categories"
+    },
+    "heading": "Dashboard",
+    "recentOrders": {
+      "subtitle": "Your latest transactions",
+      "title": "Recent Orders",
+      "viewAll": "View All"
+    },
+    "revenueChart": {
+      "subtitle": "Total revenue over time",
+      "title": "Revenue"
+    },
+    "subheading": "Track your sales performance and key metrics at a glance.",
+    "topProducts": {
+      "badge": "Top Performers",
+      "col": {
+        "category": "Category",
+        "product": "Product",
+        "rating": "Rating",
+        "revenue": "Revenue",
+        "stock": "Stock",
+        "trend": "Trend",
+        "units": "Units Sold"
+      },
+      "subtitle": "Your best-selling items this period.",
+      "title": "Top Products"
+    },
+    "trafficChart": {
+      "subtitle": "Visitor activity across your store.",
+      "title": "Traffic"
+    }
+  },
+  "features": {
+    "eyebrow": "Powered by AI",
+    "heading": "Smart Analytics for Smarter Decisions",
+    "subheading": "DaticsAI transforms your e-commerce data into actionable insights."
+  },
+  "hero": {
+    "badge": "AI-Powered Dashboard",
+    "cta": {
+      "primary": "Get Started",
+      "secondary": "Watch Demo"
+    },
+    "headline1": "Your E-Commerce Command Center",
+    "headline2": "Powered by DaticsAI",
+    "subheadline": "Real-time analytics, predictive insights, and automated reporting—all in one dashboard."
+  },
+  "orders": {
+    "col": {
+      "actions": "Actions",
+      "amount": "Amount",
+      "customer": "Customer",
+      "date": "Date",
+      "id": "Order ID",
+      "status": "Status"
+    },
+    "empty": "No orders found. Adjust your filters and try again.",
+    "exportBtn": "Export",
+    "filterBtn": "Filter",
+    "heading": "Orders",
+    "modal": {
+      "ariaLabel": "Order details",
+      "close": "Close",
+      "customerInfo": "Customer Info",
+      "export": "Export Invoice",
+      "invoice": "Invoice",
+      "items": "Items",
+      "orderLabel": "Order",
+      "shipping": "Shipping",
+      "subtotal": "Subtotal",
+      "timeline": "Timeline",
+      "total": "Total"
+    },
+    "pagination": {
+      "next": "Next",
+      "prev": "Previous",
+      "showing": "Showing"
+    },
+    "searchPlaceholder": "Search orders...",
+    "statusAll": "All Statuses",
+    "subheading": "Manage and track all customer orders in one place.",
+    "viewBtn": "View Details"
+  },
+  "pricing": {
+    "eyebrow": "Simple, transparent pricing",
+    "heading": "Choose your plan",
+    "popular": "Most popular",
+    "subheading": "Scale with your business. Upgrade or downgrade anytime."
+  },
+  "products": {
+    "badge": "Top performer",
+    "heading": "Product Performance",
+    "noResults": "No products match your search.",
+    "radar": {
+      "heading": "Market Position",
+      "note": "Competitive analysis based on your category",
+      "subheading": "See how your products stack up"
+    },
+    "resultCount": "{count} products",
+    "searchPlaceholder": "Search products...",
+    "stats": {
+      "outOfStock": "Out of stock",
+      "products": "Total products",
+      "totalRevenue": "Total revenue",
+      "unitsSold": "Units sold"
+    },
+    "subheading": "Track sales, inventory, and performance metrics",
+    "table": {
+      "category": "Category",
+      "product": "Product",
+      "rating": "Rating",
+      "revenue": "Revenue",
+      "stock": "Stock",
+      "trend": "Trend",
+      "units": "Units sold"
+    }
+  },
+  "settings": {
+    "appearance": {
+      "accentColor": "Accent color",
+      "comfortable": "Comfortable",
+      "compact": "Compact",
+      "density": "Density",
+      "preview": "Preview",
+      "spacious": "Spacious",
+      "title": "Appearance"
+    },
+    "billing": {
+      "amount": "Amount",
+      "currentPlan": "Current plan",
+      "date": "Billing date",
+      "invoice": "Invoice",
+      "invoiceHistory": "Invoice history",
+      "paymentMethod": "Payment method",
+      "planDesc": "Billed monthly. Cancel anytime.",
+      "planName": "Plan",
+      "status": "Status",
+      "title": "Billing",
+      "updateCard": "Update card",
+      "upgrade": "Upgrade plan"
+    },
+    "integrations": {
+      "connect": "Connect",
+      "desc": "Sync your favorite tools with DaticsAI",
+      "disconnect": "Disconnect",
+      "notConnected": "Not connected",
+      "title": "Integrations"
+    },
+    "notifications": {
+      "channels": "Notification channels",
+      "email": "Email",
+      "lowStock": "Low Stock Alerts",
+      "lowStockDesc": "Get notified when inventory falls below your threshold.",
+      "newCustomer": "New Customer",
+      "newCustomerDesc": "Receive alerts for each new customer signup.",
+      "orderAlerts": "Order Alerts",
+      "orderAlertsDesc": "Stay updated on order status changes and fulfillment.",
+      "productUpdates": "Product Updates",
+      "productUpdatesDesc": "Learn about new features and DaticsAI improvements.",
+      "push": "Push Notifications",
+      "revenueDigest": "Revenue Digest",
+      "revenueDigestDesc": "Daily summary of sales and revenue metrics.",
+      "sms": "SMS",
+      "title": "Notifications",
+      "weeklyReport": "Weekly Report",
+      "weeklyReportDesc": "Comprehensive weekly performance and sales overview."
+    },
+    "page": {
+      "subtitle": "Manage your account, security, and preferences.",
+      "title": "Settings"
+    },
+    "profile": {
+      "bio": "Bio",
+      "changeAvatar": "Change Avatar",
+      "email": "Email Address",
+      "fullName": "Full Name",
+      "role": "Role",
+      "title": "Profile"
+    },
+    "security": {
+      "activeSessions": "Active Sessions",
+      "confirmPassword": "Confirm Password",
+      "currentPassword": "Current Password",
+      "currentSession": "Current Session",
+      "newPassword": "New Password",
+      "passwordMismatch": "Passwords do not match.",
+      "revoke": "Revoke",
+      "title": "Security",
+      "twoFactor": "Two-Factor Authentication",
+      "twoFactorDesc": "Add an extra layer of security to your account."
+    },
+    "team": {
+      "invite": "Invite Team Member",
+      "pending": "Pending Invitations",
+      "title": "Team"
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Customer Stories",
+    "heading": "Trusted by e-commerce leaders"
+  }
+}
